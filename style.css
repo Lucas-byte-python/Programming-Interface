@@ -6,11 +6,11 @@
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(47, 221, 12);
 }
 
 body {
-    color: #fff;
+    color: #10dfd4;
     background-color: #e9ff99;
     background-image: radial-gradient(at 9% 89%, hsla(215, 90%, 73%, 1) 0px, transparent 50%),
     radial-gradient(at 72% 6%, hsla(331, 74%, 64%, 1) 0px, transparent 50%),
@@ -90,7 +90,7 @@ button {
     width: 100%;
     height: 40px;
     font-size: 15px;
-    color: #fff;
+    color: #ffffff;
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 10px;
@@ -114,4 +114,31 @@ button:hover {
     bottom: 20px;
     right: 0;
     font-size: 12px;
+}
+
+@media screen and (max-width: 1075px) {
+    .content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .logo{
+        font-size: 22px;
+    }
+    li.nav-link{
+        font-size: 13px;
+    }
+    .main h2{
+        font-size: 28px;
+    }
+    .main p{
+        font-size: 15px;
+    }
+    button{
+        font-size: 13px;
+    }
+    .image-wrapper img{
+        max-width: 400px;
+    }
 }
