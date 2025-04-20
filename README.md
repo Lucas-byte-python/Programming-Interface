@@ -1,6 +1,6 @@
 # Programming-Interface
 
-##Programming Interface is a static interface project, developed using only HTML and CSS. It represents the visual layout of a platform focused on programming — such as a coding environment, project dashboard, or system for organizing files and languages.
+## Programming Interface is a static interface project, developed using only HTML and CSS. It represents the visual layout of a platform focused on programming — such as a coding environment, project dashboard, or system for organizing files and languages.
 ## Although the project is not functional (it doesn't include back-end or JavaScript interactions), it focuses heavily on:
 
 ### + Modern and minimalist design
